@@ -1043,6 +1043,17 @@ a {
 .cid-senVfvAAnb {
   background-image: url("../../../assets/images/background9.jpg");
 }
+.cid-seocc95ldm {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+  background-color: #fafafa;
+}
+.cid-seocc95ldm .line {
+  background-color: #6592e6;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
 .cid-sedZkyTTEA {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1225,7 +1236,7 @@ a {
   text-align: center;
 }
 .cid-seefysXZNG .item-title {
-  text-align: center;
+  text-align: left;
 }
 .cid-seefysXZNG .item-subtitle {
   text-align: left;
@@ -5397,7 +5408,6 @@ a {
   width: 80% !important;
   margin: auto;
   height: auto !important;
-  height: 300px;
   object-fit: cover;
 }
 .cid-sefoqfeK5s .item:focus,

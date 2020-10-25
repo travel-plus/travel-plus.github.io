@@ -1,0 +1,97 @@
+<section class="footer6" group="Footers" mbr-class="{'mbr-parallax-background': bg.parallax}" global once="footers">
+
+    <mbr-parameters>
+        <!-- Block parameters controls (Blue "Gear" panel) -->
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="8" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="8" step="1" value="5">
+        <input type="map" title="Map" name="googleMap" place-id="サリュートビル" value="サリュートビル">
+        <input type="checkbox" title="Show Copyright" name="showCopyright" checked>
+        <select title="Icons" name="iconsCount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6" selected>6</option>
+        </select>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Background Image" value="../_images/background5.jpg">
+            <input type="color" title="Background Color" value="#232323" selected>
+        </fieldset>
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#232323" condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.9" condition="overlay && bg.type !== 'color'">
+        <!-- End block parameters -->
+    </mbr-parameters>
+
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}" bg-color="{{overlayColor}}"></div>
+
+    <div class="container">
+        <div class="row content mbr-white">
+
+            <div class="col-12 col-md-6 mbr-fonts-style" mbr-theme-style="display-7">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2" mbr-theme-style="display-7">
+                    <b>About tpi</b></h5>
+                <ul class="list mbr-fonts-style mb-4" mbr-theme-style="display-4" data-app-selector=".list" data-multiline mbr-article>
+                    <li class="mbr-text item-wrap"><a class="text-primary" href="about_tpi.html#kaishagaiyo">会社概要</a></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;"><a href="about_tpi.html#aisaci" class="text-primary">社長からのご挨拶</a></span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;"><a href="about_tpi.html#keieilinen" class="text-primary">経営理念</a></span></li><li class="mbr-text item-wrap"><span style="font-size: 1.1rem;"><a href="about_tpi.html#koudosishin" class="text-primary">行動指針</a></span></li><li class="mbr-text item-wrap"><a class="text-primary" href="history.html" style="font-size: 1.1rem; background-color: rgb(35, 35, 35);">沿革</a><br></li>
+                </ul>
+            </div>
+            
+            <div class="col-12 col-md-6 mbr-fonts-style" mbr-theme-style="display-7">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-5" mbr-theme-style="display-7">
+                    <b>Links</b>
+                </h5>
+                <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-7" data-app-selector=".mbr-text"><a href="inquiry.html" class="text-primary">お問い合わせ</a><br><a href="recruit.html" class="text-primary">採用情報</a><br><a href="group_companies.html" class="text-primary">関連会社</a><br><a href="privacy.html" class="text-primary">プライバシーポリシー</a><br></p>
+            </div>
+        </div>
+        <div class="row content mbr-white">
+            <div class="col-md-6">
+                <div class="social-list align-left" mbr-if="iconsCount > 0">
+                    <div class="soc-item" mbr-if="iconsCount>0">
+                        <a href="https://twitter.com/" target="_blank">
+                            <span mbr-icon class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>1">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <span mbr-icon class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>2">
+                        <a href="https://www.youtube.com/watch?v=WFqA4Cc5P6c&ab_channel=JpSwisswin" target="_blank">
+                            <span mbr-icon class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>3">
+                        <a href="https://instagram.com/" target="_blank">
+                            <span mbr-icon class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>4">
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            <span mbr-icon class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>5">
+                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                            <span mbr-icon class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lower" mbr-if="showCopyright">
+            <div class="media-container-row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="col-sm-12 copyright pl-0">
+                <p class="mbr-text mbr-fonts-style mbr-white" mbr-theme-style="display-7" data-app-selector=".copyright > p">
+                    © Copyright 2020 <br>travelplus international<b>株式会社<br></b><i>All Rights Reserved
+                </i></p>
+            </div>
+        </div>
+    </div>
+</section>
