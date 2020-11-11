@@ -1248,9 +1248,6 @@ a {
   }
 }
 @media (max-width: 767px) {
-  .cid-sexzKnB1mU .carousel {
-    min-height: 495px;
-  }
   .cid-sexzKnB1mU .carousel img {
     max-height: 495px;
     object-fit: contain;
