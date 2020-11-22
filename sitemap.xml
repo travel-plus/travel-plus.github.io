@@ -39,9 +39,6 @@
 		<loc>https://travelplus-jp.co.jp/makuake.html</loc>
 	</url>
 	<url>
-		<loc>https://travelplus-jp.co.jp/swisswin_business.html</loc>
-	</url>
-	<url>
 		<loc>https://travelplus-jp.co.jp/swisswin_casual.html</loc>
 	</url>
 	<url>
@@ -51,6 +48,15 @@
 		<loc>https://travelplus-jp.co.jp/swisswin_outdoor.html</loc>
 	</url>
 	<url>
-		<loc>https://travelplus-jp.co.jp/swisswin_suitcase.html</loc>
+		<loc>https://travelplus-jp.co.jp/swisswin_banner3.html</loc>
+	</url>
+	<url>
+		<loc>https://travelplus-jp.co.jp/swisswin_banner1.html</loc>
+	</url>
+	<url>
+		<loc>https://travelplus-jp.co.jp/swisswin_suitcase_banner4.html</loc>
+	</url>
+	<url>
+		<loc>https://travelplus-jp.co.jp/swisswin_business_banner2.html</loc>
 	</url>
 </urlset>
